@@ -18,7 +18,7 @@ export default class FetchExample extends React.Component {
   }
 
   componentDidMount(){
-    return fetch('https://facebook.github.io/react-native/movies.json')
+    return fetch('API_DE_TESTE_AQUI')
       .then((response) => response.json())
       .then((responseJson) => {
 
